@@ -1,0 +1,21 @@
+table {
+		border: 1px solid black;
+		 
+		
+}
+td:hover {
+	background-color: BurlyWood;
+	color;black;
+	
+}
+tr, th {
+	background-color: CadetBlue;
+	color: DarkMAgenta;
+	
+	
+}
+tr, td {
+	background-color: LightSeaGreen;
+	color: Navy;
+	
+}
