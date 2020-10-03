@@ -46,16 +46,45 @@ section{
 		padding : 20px;
 }
 
+
 form{
-		background-color: #ffffff;
-		border-color: #993333;
-		border-size: 2px;
-		opacity: 50%;
-		color: #993333;
-		font-style: bold;
-		text-align: center;
-		width: 560;
-		padding-top:20px;
-		padding-bottom: 20px;
+	background-color: #ffffff;
+	opacity: 50%;
+	color: #993333;
+	width: 560;
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	border-radius: 4px;
+	box-sizing: border-box;
 }
-		
+
+label {
+	font-size: 20px;
+	font-weight: 600;
+	position:left;
+	width:35%;
+	padding:8px;
+	margin:8px;
+}
+
+input[type=text]{
+	width:50%;
+	border: 2px solid #993333;
+	border-radius: 4px;
+	position:absolute-right;
+	padding:6px;
+	padding-right: 20px;
+	margin:2px;
+	
+}
+
+
+textarea{
+	width:80%;
+	border: 2px solid #993333;
+	border-radius: 4px;
+	position: center;
+	padding: 6px 20px 6px 20px;
+	margin: 6px;
+}
